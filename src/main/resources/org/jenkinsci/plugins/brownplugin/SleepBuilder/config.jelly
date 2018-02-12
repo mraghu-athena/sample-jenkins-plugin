@@ -1,0 +1,12 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	  
+	 <f:entry title="Developer" field="developer" description="[Required] Developer for this project">
+	   <f:select default="Select your developer" style="width:100%; padding-right:5px; margin-right:5px" inline="true" />
+	 </f:entry>
+  
+    <f:entry title="Time" field="time">
+        <f:textbox/>
+    </f:entry>
+    
+</j:jelly>
